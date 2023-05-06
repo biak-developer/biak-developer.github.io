@@ -11422,7 +11422,7 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(/assets/imgs/bg.png) no-repeat center center fixed;
+  background: url(https://cdn.pixabay.com/photo/2022/12/01/17/52/sea-7629517_960_720.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -11623,7 +11623,7 @@ textarea.form-control {
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/section.jpg) no-repeat center top fixed;
+  background: url(https://cdn.pixabay.com/photo/2019/08/06/12/15/beach-4388225_960_720.jpg) no-repeat center top fixed;
   background-size: cover;
   color: #fff;
 }
