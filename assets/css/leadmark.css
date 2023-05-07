@@ -11418,14 +11418,42 @@ textarea.form-control {
   }
 }
 
+/* Slider */
 .header {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311_960_720.jpg) no-repeat center center fixed;
+  background: linear-gradient(to bottom, #000000, #444444);
+  animation: fadein 2s ease-in-out forwards;
   background-size: cover;
   overflow: hidden;
 }
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* akhir animasi slider hitam */
+
+/* animasi tulisan biak developer */
+.header .subtitle {
+  position: relative;
+  animation: slidein 2s ease-in-out forwards;
+}
+
+@keyframes slidein {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+/* akhir */
 
 .header .overlay {
   position: absolute;
@@ -11621,9 +11649,10 @@ textarea.form-control {
   z-index: 1;
 }
 
+/* gambar backgroud akhir */
 .section.has-img-bg {
   position: relative;
-  background: url(https://cdn.pixabay.com/photo/2019/08/06/12/15/beach-4388225_960_720.jpg) no-repeat center top fixed;
+  background: linear-gradient(to bottom, #000000, #444444);
   background-size: cover;
   color: #fff;
 }
